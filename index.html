@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventBuddyPro - Home</title>
+    <!--  Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--  custom CSS -->
+    <link rel="stylesheet" href="static/style/style.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">EventBuddyPro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="event_create_update.html">Create/Update Event</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="event_detail.html">Event Details</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="booking_history.html">Booking History</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Image -->
+    <div class="hero-image">
+        <img src="static/style/img/Heroimage.jpeg" alt="Hero Image" class="img-fluid">
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <!-- Event Categories -->
+        <h1>Browse Events by Category</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/style/img/music.webp" class="card-img-top" alt="Category 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Music</h5>
+                        <p class="card-text">Discover exciting events in Music.</p>
+                        <a href="event_detail.html" class="btn btn-primary">Explore Category</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/style/img/arts.jpg" class="card-img-top" alt="Category 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Visual & Performing Arts</h5>
+                        <p class="card-text">Explore events for a great experience.</p>
+                        <a href="event_detail.html" class="btn btn-primary">Explore Category</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/style/img/food.jpeg" class="card-img-top" alt="Category 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Food & Drink</h5>
+                        <p class="card-text">Explore new foods and Drink!.</p>
+                        <a href="event_detail.html" class="btn btn-primary">Explore Category</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Upcoming Events -->
+        <h2 class="mt-4">Upcoming Events</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/style/img/festival.jpeg" class="card-img-top" alt="Event 1">
+                    <div class="card-body">
+                        <h5 class="card-title">HarmonyFest: Groove in the Park</h5>
+                        <p class="card-text">Date: October 15, 2023</p>
+                        <p class="card-text">Start Time: 7:00 PM</p>
+                        <p class="card-text">End Time: 10:00 PM</p>
+                        <p class="card-text">Status: Open</p>
+                        <a href="event_detail.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/style/img/dancer.jpeg" class="card-img-top" alt="Event 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Theatrical Fusion: A Night of Dance and Drama</h5>
+                        <p class="card-text">Date: November 5, 2023</p>
+                        <p class="card-text">Start Time: 6:30 PM</p>
+                        <p class="card-text">End Time: 9:30 PM</p>
+                        <p class="card-text">Status: Sold Out</p>
+                        <a href="event_detail.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/style/img/drink.webp" class="card-img-top" alt="Event 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Flavors of the World: Culinary Adventure Festival</h5>
+                        <p class="card-text">Date: December 10, 2023</p>
+                        <p class="card-text">Start Time: 8:00 PM</p>
+                        <p class="card-text">End Time: 11:00 PM</p>
+                        <p class="card-text">Status: Inactive</p>
+                        <a href="event_detail.html" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
